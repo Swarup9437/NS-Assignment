@@ -1,0 +1,205 @@
+1. JavaScript as Programming Language - II (Inclass) - Anti clockwise
+// You need to print the matrix Anticlock wise
+// mat: contains the input matrix
+function printAntiClockWise(mat)
+{
+         // Your code here
+	var n = mat.length; 
+	var minc = 0;
+	var minr = 0;
+	var maxc = n-1;
+	var maxr = n-1;
+	var count = 0;
+	let arr = [];
+	while (count < n*n) {
+		for (var i = minr; i <= maxr; i++) {
+			arr.push(mat[i][minc]);
+			count++;
+		}
+		minc++;
+		for (var i = minc; i <= maxc; i++) {
+			arr.push(mat[maxr][i]);
+			count++;
+		}
+		maxr--;
+		for (var i = maxr; i >= minr; i--) {
+			arr.push(mat[i][maxc]);
+			count++;
+		}
+		maxc--;
+		for (var i = maxc; i >= minc; i--) {
+			arr.push(mat[minr][i]);
+			count++;
+		}
+		minr++;
+	}
+	console.log(arr.join(" "));
+ }
+
+ 2. JavaScript as Programming Language - II (Inclass) - Number of days
+ // You need to return the number of days in nth
+// month of year
+// n: input month number
+function numberOfDays(n)
+{
+    // Your code here
+    switch (n) {
+        case 1:
+            return 31;
+        case 2:
+            return 28;
+        case 3:
+            return 31;
+        case 4:
+            return 30;
+        case 5:
+            return 31;
+        case 6:
+            return 30;
+        case 7:
+            return 31;
+        case 8:
+            return 31;
+        case 9:
+            return 30;
+        case 10:
+            return 31;
+        case 11:
+            return 30;
+        case 12:
+            return 31;
+    }     
+}
+
+3. JavaScript as Programming Language - II ( Post class ) - Compound interest
+// You need to return Compound Interest
+// P: principal value
+// T: rate of interest
+// T: time in years 
+function calculateCI(P, R, T)
+{
+       // Your code here
+       var ci = P*(Math.pow(1+R/100, T))-P;
+       const x = parseFloat(ci).toFixed(2);
+       return x;
+}
+
+4. Arrays - I - ( Inclass) - Sum of Product of Digits of a given number
+function sumOfProductOfDigits(n1, n2)
+{
+         // Your code here
+         var ans = 0;
+        while (n1 != 0 || n2 != 0) {
+            ans += (n1%10)*(n2%10);
+            n1 = Math.floor(n1/10);
+            n2 = Math.floor(n2/10);
+        }
+        return ans;
+}
+
+5. Arrays - I ( Post class ) - Number of primes
+// You need to return the count of Primes less than equal to N
+// N: input number
+function numberOfPrimes(N)
+{
+      // Your code here
+      let count = 0
+      for (let i = 2; i <= N; i++) {
+            if (isPrime(i)) count++;
+      }
+      return count;
+ }
+ function isPrime(n){
+      if (n == 2 || n == 3) return true;
+      else if (n%2 ==0 || n%3 == 0) return false;
+      else {
+            for(let i = 5; i*i <= n; i += 6){
+                  if (n%i == 0 || n%(i+2) == 0) return false;
+            }
+      }
+      return true;
+}
+
+6. Arrays - II ( Inclass) - Even-Odd seperate sorting
+// You need to return sorted array, not string
+// arr: input array
+// arrSize: size of array
+function sortEvenOdd(arr, arrSize) {
+    // Your code here 
+  let l = 0, r = arrSize - 1;
+  let k = 0;
+
+  while (l < r) {
+    while (arr[l] % 2 != 0) {
+        l++;
+        k++;
+    }
+    while (arr[r] % 2 == 0 && l < r) r--;
+    if (l < r) {
+        let temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
+    }
+  }
+  let odd=new Array(k);
+  for(let i=0;i<k;i++)
+  {
+      odd[i]=arr[i];
+  }
+  let even=new Array(arrSize-k);
+  for(let i=0;i<arrSize-k;i++)
+  {
+      even[i]=arr[k+i];
+  }
+  odd.sort(function(a,b){return b-a;});
+  even.sort(function(a,b){return a-b;});
+  return odd.concat(even);   
+}
+
+7. Arrays - II ( Post class) - Lucky Sevens
+function  lucky_sevens(array){
+// write your code here
+// use console.log to print your output
+if(array.length < 3) console.log("false"); 
+else {
+    let x = 0;  
+    let i; 
+    for (i = 2; i < array.length; i++) {
+        if (array[i]+ array[i-1]+ array[i-2] === 7) {
+            console.log("true");  
+            break;
+        }
+    }
+    // if (x > 0) console.log("true");
+    // else console.log("false");
+    if (i === array.length) console.log ("false");
+}
+}
+
+8. Arrays - II ( Post class) - Easy sorting
+// You need to return the sorted String array
+// Backend code will print the result
+// arr: Arrays of 5 strings 
+function easySorting(arr)
+  {
+    // Your code here
+    let n = arr.length;
+        for (let i = 1; i < n; i++) {
+            let current = arr[i];
+            let j = i-1; 
+            while ((j > -1) && (current < arr[j])) {
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = current;
+        }
+    return arr;
+  }
+
+  9. OOPS ( Post class ) - Unique Elements from array
+  function removeDuplicates(arr){
+// write code here
+// use console.log for printing output
+const unique = arr.filter((x, i, a) => a.indexOf(x) == i)
+console.log(...unique)
+}

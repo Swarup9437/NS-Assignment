@@ -1,0 +1,58 @@
+1. Getting started (Inclass) - Getting Started 
+https://my.newtonschool.co/playground/markup/b1njrmogfnss/
+
+2. Why Software , Favourite Animal - (Post class) - Favourite Animal
+https://my.newtonschool.co/playground/markup/qpb2vwcgsypr/
+
+3. Why Software , Favourite Animal - (Post class) - Why Software?
+https://my.newtonschool.co/playground/markup/u6vw61685ztz/
+
+4. Shopping or Holiday , Portfolio page (Inclass) - Portfolio Page
+https://my.newtonschool.co/playground/markup/nmm3st09p7qw/
+
+5. Shopping or Holiday , Portfolio page (Inclass) - Shopping or Holiday?
+https://my.newtonschool.co/playground/markup/r4v7al67pn2l/
+
+6. Intro to stylings II ( In class ) - CSS Selector
+https://my.newtonschool.co/playground/game/sckb1zsnu6ab/
+
+7. Intro to stylings II ( Post class ) - Beautiful IMDb
+https://my.newtonschool.co/playground/markup/ioaq55v6x249/
+
+8. Intro to stylings II ( Post class ) - Room Makeover
+https://my.newtonschool.co/playground/markup/dfi8bv7j1dbs/
+
+9. Intro to stylings II ( Post class ) - Myntra: Size Chart
+https://my.newtonschool.co/playground/markup/m8igabc9qda6/
+
+10. Basic Selectors, Element selector, Id selector, Class selector, Universal/global ... - Post Class - Hover Button
+https://my.newtonschool.co/playground/markup/8oog2ifrhpw2/
+
+11. Basic Selectors, Element selector, Id selector, Class selector, Universal/global ... - Post Class - Hello Newton School
+https://my.newtonschool.co/playground/markup/hcm9ts05pa9v/
+
+12. Basic Selectors, Element selector, Id selector, Class selector, Universal/global ... - Post Class - Responsive Resume using CSS Grid
+
+
+13. Flexbox, Flex-direction, Flex-wrap, Flex-flow, Justify-content, Align-items, Ali ... - Post Class - Place item in center
+https://my.newtonschool.co/playground/markup/cvnqqoz5qxxg/
+
+14. Flexbox, Flex-direction, Flex-wrap, Flex-flow, Justify-content, Align-items, Ali ... - Post Class - Place the item -1
+https://my.newtonschool.co/playground/markup/j3wnohopbtoj/
+
+15. Flexbox, Flex-direction, Flex-wrap, Flex-flow, Justify-content, Align-items, Ali ... - Post Class - Place the item - 3
+https://my.newtonschool.co/playground/markup/dqhksalf2c4v/
+
+16. CSS Grid - Post Class - CSS Grid Garden
+https://my.newtonschool.co/playground/game/yl1i5bmd56nt/
+
+17. CSS Grid - Post Class - Place the item in grid (Css)
+https://my.newtonschool.co/playground/markup/8n8imgqnibdx/
+
+18. Adding Audio, Adding Images, Adding video, Responsive CSS - Post Class - Semantic Tables & media
+https://my.newtonschool.co/playground/markup/sonpcl1athzg/
+
+19. Adding Audio, Adding Images, Adding video, Responsive CSS - Post Class - Semantic Navbar & Videos
+https://my.newtonschool.co/playground/markup/tzgjfj1joajd/
+
+20. 
